@@ -296,38 +296,6 @@ header.shadow {
     transition: 0.2s all linear;
 }
 
-.news {
-    padding: 20px;
-    position: fixed;
-    top: 12%;
-    right: -100%;
-    background: var(--bg-color);
-    width: 23rem;
-    height: 384.5vh;
-    transition: right 0.8s ease-in-out;
-    box-shadow: var(--box-shadow);
-}
-
-.news.active {
-    position: absolute;
-    box-shadow: var(--box-shadow);
-    right: 0;
-}
-
-.information {
-    padding-bottom: 140px;
-}
-
-.information h3 {
-    padding-top: 5px;
-    padding-bottom: 10px;
-}
-
-.information p {
-    padding-bottom: 30px;
-    text-align: justify;
-}
-
 footer #help {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, auto));
