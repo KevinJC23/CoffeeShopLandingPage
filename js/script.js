@@ -20,9 +20,3 @@ let header = document.querySelector('header');
 window.addEventListener('scroll', () => {
     header.classList.toggle('shadow', window.scrollY > 0);
 });
-
-let news = document.querySelector('.news');
-document.querySelector('#news-icon').onclick = () => {
-    news.classList.toggle('active');
-    navbar.classList.remove('active');
-}
